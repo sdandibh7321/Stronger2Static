@@ -1,0 +1,76 @@
+/* body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 50;
+  } */
+
+  /* Styling the area of the slides */
+  #slideshow {
+  overflow: hidden;
+  height: 408px;
+  width: 100%;
+  margin-left: 30% auto;
+  }
+
+  /* Style each of the sides
+  with a fixed width and height */
+  .slide {
+  float: left;
+  height: 408px;
+  width: 900px;
+  }
+
+  /* Add animation to the slides */
+  .slide-wrapper {
+
+  /* Calculate the total width on the
+  basis of number of slides */
+  width: calc(900px * 4);
+
+  /* Specify the animation with the
+  duration and speed */
+  animation: slide 30s ease infinite;
+  }
+
+  /* Set the background color
+  of each of the slides */
+  .slide:nth-child(1) {
+    background: rgb(17, 47, 78)  
+  }
+
+  .slide:nth-child(2) {
+    background: rgb(17, 47, 78)  
+  }
+
+  .slide:nth-child(3) {
+    background: rgb(17, 47, 78)  
+  }
+
+  /* .slide:nth-child(4) {
+  background: white;
+  } */
+
+  /* Define the animation
+  for the slideshow */
+  @keyframes slide {
+
+  /* Calculate the margin-left for
+  each of the slides */
+  /* orig 20% */
+  0% { 
+    margin-left: 0px;
+  }
+
+  40% {
+    margin-left: calc(-650px * 1);
+  }
+
+  60% {
+    margin-left: calc(-650px * 2);
+  }
+
+  /* 80% {
+    margin-left: calc(-728px * 3);
+  } */
+  }
