@@ -1,0 +1,23 @@
+{
+  "name": "stronger2static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gh": "gh-pages -d USWDS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdandibh7321/Stronger2Static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdandibh7321/Stronger2Static/issues"
+  },
+  "homepage": "https://github.com/sdandibh7321/Stronger2Static#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
